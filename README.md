@@ -1,6 +1,6 @@
-#leetcode-JavaScript</br>
-####[1.两数之和](./leetcode/1.两数之和.js)</br>
-[2.两数相加](./leetcode/2.两数相加.js)</br>
+# leetcode-JavaScript
+#### [1.两数之和](./leetcode/1.两数之和.js)</br>
+#### [2.两数相加](./leetcode/2.两数相加.js)</br>
 ####[3.无重复字符的最长子串](./leetcode/3.无重复字符的最长子串.js)</br>
 ####[5.最长回文子串](./leetcode/5.最长回文子串.js)</br>
 ####[6.Z字形变换](./leetcode/6.Z字形变换.js)</br>
