@@ -1,26 +1,3 @@
-
-/* 整数转罗马数 */
-function intToRoman(num){
-    var result = '';
-
-    if(num <= 0)
-        return result;
-    
-    var number = [1000,900,500,400,100,90,50,40,10,9,5,4,1];
-    var roman = ['M','CM','D','CD','C','XC','L','XL','X','IX','V','IV','I'];
-
-    for(let i = 0;i < 13;i++){
-        while(num >= number[i]){
-            num -= number[i];
-            result += roman[i];
-        }
-    }
-
-    return result;
-}
-
-//console.log(intToRoman(1994));
-
 /* 罗马数转整数 */
 function romanToInt(str){
     var roman ={
