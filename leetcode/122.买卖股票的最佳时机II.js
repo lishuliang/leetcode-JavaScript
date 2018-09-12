@@ -3,14 +3,14 @@
 */
 function maxProfit(prices) {
 
-    if(prices === null || prices.length ===0){
+    if(prices === null || prices.length === 0){
         return 0;
     }
   
     var maxProfits = 0;
 
     prices.forEach((per,index,prices) => {
-        (per<prices[index+1]) && (maxProfits+=prices[index+1]-per);
+        (per < prices[index + 1]) && (maxProfits += prices[index + 1] - per);
     },0);
 
     return maxProfits;

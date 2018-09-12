@@ -4,7 +4,7 @@
  * @return {string}
  */
 var multiply = function(a, b) {
-    if(a == 0 || b == 0){
+    if(a === 0 || b === 0){
         return '0';
     }
     var str1,str2,len1,len2,

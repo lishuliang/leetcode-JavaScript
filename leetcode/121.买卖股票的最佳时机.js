@@ -18,7 +18,7 @@ function maxProfit(prices) {
         } */
         
         prices.forEach(price => {
-            price<minPrice ? minPrice=price :  maxProfits=Math.max(maxProfits,price-minPrice);
+            price < minPrice ? minPrice = price :  maxProfits = Math.max(maxProfits,price-minPrice);
         });
        
         return maxProfits;
