@@ -36,17 +36,5 @@ function digui(arr,index,str,res){
     }
 }
 
-var letterCombinations = function(digits) {
-    let res = [];
-    if(digits.length < 1)
-        return [];
-    let num = digits.replace(/0|1/gi,'');
-
-    for(let i = 0;i < arr.length;i++){
-        let str = '';
-        
-    }
-    return res;
-};
 
 console.log(letterCombinations('23'));

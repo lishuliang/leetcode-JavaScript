@@ -2,15 +2,15 @@
  * @param {number} x
  * @return {number}
  */
-var mySqrt = function(x) {
+let mySqrt = function(x) {
     if(x === 0)
         return 0;
     else if(x === 1)
         return 1;
     
-    var low = 0;
-    var high = x;
-    var mid = Math.floor(x / 2);
+    let low = 0;
+    let high = x;
+    let mid = Math.floor(x / 2);
     
     while(low <= high){
         let n = mid * mid;

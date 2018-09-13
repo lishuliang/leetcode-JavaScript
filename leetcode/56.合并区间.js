@@ -9,7 +9,7 @@
  * @param {Interval[]} intervals
  * @return {Interval[]}
  */
-var merge = function(arr) {
+let merge = function(arr) {
     if(arr.length === 0)
         return [];
     if(arr.length === 1)
@@ -17,10 +17,10 @@ var merge = function(arr) {
     arr.sort(function(a,b){
         return a.start - b.start;
     });
-    var res = [];
+    let res = [];
     res.push(arr[0]);
     for(let i = 1;i < arr.length;i++){
-        var temp = res.pop();
+        let temp = res.pop();
         if(arr[i].end <= temp.end){
             res.push(temp);
         }
