@@ -2,7 +2,7 @@
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
  */
-var rotate = function(matrix) {
+let rotate = function(matrix) {
     let x = 0,
         y = 0,
         x2 = matrix.length - 1,

@@ -16,7 +16,7 @@ function ListNode(val) {
     this.next = null; 
 }
 
-var addTwoNumbers = function(l1, l2) {
+let addTwoNumbers = function(l1, l2) {
     let l3,
         c3,
         carry=0, //进位

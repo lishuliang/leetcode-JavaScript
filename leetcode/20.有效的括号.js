@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function(s) {
+let isValid = function(s) {
     let len = s.length;
     if(len === 0)
         return true;

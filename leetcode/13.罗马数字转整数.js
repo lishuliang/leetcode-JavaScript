@@ -1,6 +1,6 @@
 /* 罗马数转整数 */
 function romanToInt(str){
-    var roman ={
+    let roman ={
         'I':1,
         'V':5,
         'X':10,
@@ -10,7 +10,7 @@ function romanToInt(str){
         'M':1000
     }
 
-    var result = 0;
+    let result = 0;
     for(let i = 0;i < str.length;i++){
        if(roman[str.charAt(i)] >= roman[str.charAt(i + 1)] || i + 1 >= str.length){ 
             result += roman[str.charAt(i)];

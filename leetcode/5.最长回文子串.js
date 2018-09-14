@@ -38,7 +38,7 @@ function isPalindrome(str){  //判断是否为回文串
     return first === rest.split('').reverse().join('');
 } */
 
-var longestPalindrome = function(s) { //动态规划
+let longestPalindrome = function(s) { //动态规划
     if(s.length <= 1)
         return s;
     let len = s.length;
@@ -73,7 +73,7 @@ var longestPalindrome = function(s) { //动态规划
     return s.substr(maxIndex,max);
 }
 
-var longestPalindrome = function(s) {  //Manacher 算法
+let longestPalindrome = function(s) {  //Manacher 算法
     let str = '#' + s.split('').join('#') + '#';
     let RL = [],
         pos = 0,

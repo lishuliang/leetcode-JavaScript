@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {string[]}
  */
-var generateParenthesis = function(n) {
+let generateParenthesis = function(n) {
     let str = '',
         res = [];  
     compute(n,0,0,str,res);

@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {number}
  */
-var reverse = function(x) {
+let reverse = function(x) {
     let resultArr = [];
     let str = '' + x;
     for(let i = str.length - 1;i >= 0;i--){

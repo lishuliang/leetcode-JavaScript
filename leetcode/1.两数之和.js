@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) { //遍历一遍哈希表
+let twoSum = function(nums, target) { //遍历一遍哈希表
     if(nums.length < 2)
         return false;
     let map = new Map();

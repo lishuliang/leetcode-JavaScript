@@ -15,7 +15,7 @@ function ListNode(val) {
     this.next = null;
 }
 
-var mergeTwoLists = function(l1, l2) {
+let mergeTwoLists = function(l1, l2) {
     let a = l1,
         b = l2,
         l3 = new ListNode(-1),

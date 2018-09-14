@@ -3,7 +3,7 @@
  * @return {number}
  */
 
-var maxArea = function(height) { //暴力
+let maxArea = function(height) { //暴力
     let maxBulk = 0;
     for(let i = 0;i < height.length;i++){
         for(let j = 0;j < height.length;j++){
@@ -17,7 +17,7 @@ var maxArea = function(height) { //暴力
     return maxBulk;
 };
 
-var maxArea = function(height) { //双指针
+let maxArea = function(height) { //双指针
     let start = 0,
         end = height.length - 1,
         maxBulk = 0;

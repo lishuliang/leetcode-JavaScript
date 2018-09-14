@@ -2,7 +2,7 @@
  * @param {number[]} digits
  * @return {number[]}
  */
-var plusOne = function(digits) {
+let plusOne = function(digits) {
     let res,
         carry = 0;
     let num = digits.join('');

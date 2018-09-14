@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var threeSum = function(nums) {
+let threeSum = function(nums) {
     let resArr = [],
         index = 0;
     for(let i = 0;i < nums.length - 2;i++){

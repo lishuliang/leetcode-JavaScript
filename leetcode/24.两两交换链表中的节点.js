@@ -15,7 +15,7 @@ function ListNode(val) {
     this.next = null;
 }
 
-var swapPairs = function(head) {  //递归方式
+let swapPairs = function(head) {  //递归方式
     let p = head;
 
     if(p === null || p.next === null)

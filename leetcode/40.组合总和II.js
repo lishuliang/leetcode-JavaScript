@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[][]}
  */
-var combinationSum2 = function(candidates, target) {
+let combinationSum2 = function(candidates, target) {
     let res = [];
     if(candidates.length === 0)
         return res;

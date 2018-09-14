@@ -2,8 +2,8 @@
  * @param {number} n
  * @return {number}
  */
-var climbStairs = function(n) { //动态规划
-    var a = [];
+let climbStairs = function(n) { //动态规划
+    let a = [];
     a[0] = 1;
     a[1] = 1;
     a[2] = 2;

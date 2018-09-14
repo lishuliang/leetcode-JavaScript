@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-var nextPermutation = function(nums) {
+let nextPermutation = function(nums) {
     let  index = nums.length - 1;
 
     while(index >=0 && nums[index] <= nums[index - 1])

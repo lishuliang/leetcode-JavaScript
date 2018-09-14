@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[][]}
  */
-var combinationSum = function(candidates, target) {  //回溯法
+let combinationSum = function(candidates, target) {  //回溯法
     let res = [];
     if(candidates.length === 0)
         return res;

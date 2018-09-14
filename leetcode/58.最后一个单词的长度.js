@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLastWord = function(s) {
+let lengthOfLastWord = function(s) {
     let arr = s.split(' ');
     arr = arr.filter(val => {
         return val !== '';

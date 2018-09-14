@@ -7,7 +7,7 @@ function maxProfit(prices) {
         return 0;
     }
   
-    var maxProfits = 0;
+    let maxProfits = 0;
 
     prices.forEach((per,index,prices) => {
         (per < prices[index + 1]) && (maxProfits += prices[index + 1] - per);

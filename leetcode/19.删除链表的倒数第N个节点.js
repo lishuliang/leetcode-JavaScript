@@ -16,7 +16,7 @@ function ListNode(val) {
     this.next = null;
 }
 
-var removeNthFromEnd = function(head, n) {
+let removeNthFromEnd = function(head, n) {
     if(head === null)
         return null;
 

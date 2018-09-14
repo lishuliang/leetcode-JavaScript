@@ -1,6 +1,6 @@
 /* 213. 打家劫舍 II */
 function rob(nums) { //分为2段 1-(n-1) 2-n
-    var result = [],
+    let result = [],
         result2 = [],
         arr = nums.slice(0,nums.length - 1),
         arr2 = nums.slice(1,nums.length);

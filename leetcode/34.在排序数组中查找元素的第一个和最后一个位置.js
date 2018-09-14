@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
-var searchRange = function(nums, target) {  //二分查找
+let searchRange = function(nums, target) {  //二分查找
     let start = 0,
         end = nums.length,
         index = -1;

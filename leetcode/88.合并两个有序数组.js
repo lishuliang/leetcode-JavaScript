@@ -5,7 +5,7 @@
  * @param {number} n
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
-var merge = function(nums1, m, nums2, n) { //直接在num1操作，不占用额外空间
+let merge = function(nums1, m, nums2, n) { //直接在num1操作，不占用额外空间
     let len = m + n
         a = m - 1,
         b = n - 1;
@@ -26,7 +26,7 @@ var merge = function(nums1, m, nums2, n) { //直接在num1操作，不占用额�
     return nums1;
 };
 
-var merge = function(nums1, m, nums2, n) { //占用额外空间
+let merge = function(nums1, m, nums2, n) { //占用额外空间
     let res = []
         a = 0,
         b = 0;

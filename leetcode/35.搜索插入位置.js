@@ -12,7 +12,7 @@
     return nums.indexOf(target);
 }; */
 
-var searchInsert = function(nums, target) {
+let searchInsert = function(nums, target) {
     for(let i = 0;i < nums.length;i++){
         if(target <= nums[i]){
             return i;

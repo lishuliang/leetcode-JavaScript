@@ -1,6 +1,6 @@
 /* 198. 打家劫舍 */
 function rob(nums) {
-    var result = [];
+    let result = [];
     
     if(nums.length === 0)
         return 0;

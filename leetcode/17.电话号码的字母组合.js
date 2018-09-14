@@ -13,7 +13,7 @@ let obj = {
     '9':['w','x','y','z']
 }
 
-var letterCombinations = function(digits) {
+let letterCombinations = function(digits) {
     let res = [];
     let str = '';
     if(digits.length < 1)

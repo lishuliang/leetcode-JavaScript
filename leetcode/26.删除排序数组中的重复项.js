@@ -1,8 +1,8 @@
 
-var removeDuplicates = function(nums) {
+let removeDuplicates = function(nums) {
     if(nums.length === 0)
         return 0;
-    var number = 0;
+    let number = 0;
     for(let i = 0;i < nums.length;i++){
         if(nums[i] !== nums[number]){
             nums[++number] = nums[i];

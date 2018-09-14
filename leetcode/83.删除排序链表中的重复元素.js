@@ -15,11 +15,11 @@ function ListNode(val) {
 }
 
 
-var deleteDuplicates = function(head) {
+let deleteDuplicates = function(head) {
     if((head === null) || (head.next === null)) 
         return head;
     
-    var cur=head;
+    let cur=head;
     while(cur.next !== null){
         if(cur.val !== cur.next.val){
             cur = cur.next;
@@ -38,7 +38,7 @@ head.next.next.next = new ListNode(1);
 
 console.log(deleteDuplicates(head));
 
-/* var deleteDuplicates = function(head) {  
+/* let deleteDuplicates = function(head) {  
     if(head === null || head.next === null)
         return head;
 

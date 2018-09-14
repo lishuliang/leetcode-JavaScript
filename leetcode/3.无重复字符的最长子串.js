@@ -3,7 +3,7 @@
  * @return {number}
  */
 
-var lengthOfLongestSubstring = function(s) {  //滑动窗口思路
+let lengthOfLongestSubstring = function(s) {  //滑动窗口思路
     let res = '',
         len = 0;
     for(let i = 0;i < s.length;i++){

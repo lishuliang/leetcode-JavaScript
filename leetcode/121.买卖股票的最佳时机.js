@@ -5,8 +5,8 @@ function maxProfit(prices) {
     
     if(prices !== null){
 
-        var minPrice = prices[0]; //买入最小价格
-        var maxProfits = 0;  //最大利润
+        let minPrice = prices[0]; //买入最小价格
+        let maxProfits = 0;  //最大利润
         
         /* for(let i=0;i<prices.length;i++){
             if(prices[i]<minPrice){

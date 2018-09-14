@@ -2,7 +2,7 @@
  * @param {character[][]} board
  * @return {boolean}
  */
-var isValidSudoku = function(board) {  //利用set判断是否有相同的数
+let isValidSudoku = function(board) {  //利用set判断是否有相同的数
     let row = board.length;
     let col = board[0].length;
 

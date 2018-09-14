@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number}
  */
-var threeSumClosest = function(nums, target) {
+let threeSumClosest = function(nums, target) {
     if(nums.length < 3)
     return [];
 

@@ -1,9 +1,9 @@
 
-var removeDuplicates = function(nums) {
+let removeDuplicates = function(nums) {
     if(nums.length === 0)
         return 0;
-    var number = 0;
-    var isTwice = false;
+    let number = 0;
+    let isTwice = false;
     for(let i = 0;i < nums.length;i++){
         if(i !== nums.length - 1 && nums[i] === nums[i + 1]){
             if(!isTwice){

@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number}
  */
-var search = function(nums, target) {
+let search = function(nums, target) {
     let index = -1;
     //index = nums.indexOf(target);
     for(let i = 0;i < nums.length;i++){

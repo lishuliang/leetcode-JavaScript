@@ -3,7 +3,7 @@
  * @param {string} num2
  * @return {string}
  */
-var multiply = function(a, b) {
+let multiply = function(a, b) {
     if(a === 0 || b === 0){
         return '0';
     }
