@@ -39,8 +39,10 @@
 #### [50.Pow(x,n)](./leetcode/50.Pow(x,n).js)</br>
 #### [53.最大子序和](./leetcode/53.最大子序和.js)</br>
 #### [54.螺旋矩阵](./leetcode/54.螺旋矩阵.js)</br>
+#### [55.跳跃游戏](./leetcode/55.跳跃游戏.js)</br>
 #### [56.合并区间](./leetcode/56.合并区间.js)</br>
 #### [58.最后一个单词的长度](./leetcode/58.最后一个单词的长度.js)</br>
+#### [59.螺旋矩阵II](./leetcode/59.螺旋矩阵II.js)</br>
 #### [66.加一](./leetcode/66.加一.js)</br>
 #### [69.x的平方根](./leetcode/69.x的平方根.js)</br>
 #### [70.爬楼梯](./leetcode/70.爬楼梯.js)</br>
