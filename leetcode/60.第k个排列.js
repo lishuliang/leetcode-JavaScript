@@ -1,13 +1,27 @@
 /**
- * @param {number[]} nums
- * @return {void} Do not return anything, modify nums in-place instead.
+ * @param {number} n
+ * @param {number} k
+ * @return {string}
  */
+let getPermutation = function(n, k) { 
+    let nums = [];
+    for(let i = 1;i <= n;i++){
+        nums[i - 1] = i;
+    }
+    let index = 1;
+    while(index < k){
+        nextPermutation(nums);  //依靠下一个排列计算
+        index++;
+    }
+    return nums.join('');
+};
+
 let nextPermutation = function(nums) {
     let  index = nums.length - 1;
 
-    while(index > 0 && nums[index] <= nums[index - 1])
+    while(index >= 0 && nums[index] <= nums[index - 1])
         index--;
-
+    
     if(index === 0)
         return nums = nums.sort((a,b) => a - b);
 
@@ -39,4 +53,4 @@ function reverse(arr,start){
     }
 }
 
-console.log(nextPermutation([3,1,2]))
+console.log(getPermutation(3,2));
