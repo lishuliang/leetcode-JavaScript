@@ -45,6 +45,8 @@
 #### [59.螺旋矩阵II](./leetcode/59.螺旋矩阵II.js)</br>
 #### [60.第k个排列](./leetcode/60.第k个排列.js)</br>
 #### [61.旋转链表](./leetcode/61.旋转链表.js)</br>
+#### [62.不同路径](./leetcode/62.不同路径.js)</br>
+#### [63.不同路径II](./leetcode/63.不同路径II.js)</br>
 #### [66.加一](./leetcode/66.加一.js)</br>
 #### [69.x的平方根](./leetcode/69.x的平方根.js)</br>
 #### [70.爬楼梯](./leetcode/70.爬楼梯.js)</br>
