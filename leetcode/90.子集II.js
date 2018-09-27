@@ -2,7 +2,8 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-let subsets = function(nums) {
+let subsetsWithDup = function(nums) {
+    nums.sort();
     let res = [];
     let temp = [];
     solve(nums,res,temp,0);
@@ -17,10 +18,12 @@ function solve(nums,res,temp,index) {
         return;
     }
     for(let i = index;i < nums.length;i++){
+        if(i > index && nums[i] === nums[i - 1])  //同一层中，前后两个不能相同
+            continue;
         temp.push(nums[i]);
         solve(nums,res,temp,i + 1);
         temp.pop();
     }
 }
 
-console.log(subsets([1,2,3]));
+console.log(subsetsWithDup([1,2,2]));
